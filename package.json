@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -o dist/css/ --watch scss/ --recursive --use-polling --polling-interval 1000"
+  },
+  "author": "Fabian Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
